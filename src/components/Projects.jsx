@@ -19,7 +19,7 @@ const projectsData = [
     id: 1,
     title: "Jaxun Weather",
     description: "Description for Jaxun Weather project.",
-    image: "./src/images/jaxun-weather.png",
+    image: "./public/images/jaxun-weather.png",
     url: "https://github.com/benjackson33/react-weather"
   },
   {
@@ -33,7 +33,7 @@ const projectsData = [
     id: 3,
     title: "MotoShare",
     description: "Description for MotoShare project.",
-    image: "./src/images/motoshare.png",
+    image: "./public/images/motoshare.png,"
     url: "https://motoshare.onrender.com",
   },
   {

@@ -19,28 +19,28 @@ const projectsData = [
     id: 1,
     title: "Jaxun Weather",
     description: "Description for Jaxun Weather project.",
-    image: "/public/images/jaxun-weather.png",
+    image: "/images/jaxun-weather.png",
     url: "https://github.com/benjackson33/react-weather"
   },
   {
     id: 2,
     title: "Servo Finder",
     description: "Description for Servo Finder project.",
-    image: "/public/images/servo.png",
+    image: "/images/servo.png",
     url: "https://github.com/papa-fish/servo_app"
   },
   {
     id: 3,
     title: "MotoShare",
     description: "Description for MotoShare project.",
-    image: "/public/images/motoshare.png,",
+    image: "/images/motoshare.png,",
     url: "https://motoshare.onrender.com",
   },
   {
     id: 4,
     title: "Tic-Tac-Woah",
     description: "Description for Tic-Tac-Woah project.",
-    image: "/public/images/tic-tac-woah.png",
+    image: "/images/tic-tac-woah.png",
     url: "https://benjackson33.github.io/tic-tac-woah/",
   },
 ];

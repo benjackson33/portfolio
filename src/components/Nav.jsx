@@ -17,6 +17,19 @@ import { Button, Toolbar } from '@mui/material';
 
 
 const Nav = () => {
+  const [showCV, setShowCV] = React.useState(false);
+
+  const handleEmailClick = () => {
+    const recipient = 'benjacksonsmail@gmail.com';
+    const subject = 'Working with you';
+
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}`;
+
+    window.location.href = mailtoLink;
+  }
+
+  const pdfUrl = "https://drive.google.com/file/d/1xNX_3MreMnPmGiXYUmj8_eSux80Zbcxg/view"
+
   return (
     <AppBar position="static" sx={{ background: 'transparent', boxShadow: 'none' }}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
@@ -24,7 +37,7 @@ const Nav = () => {
           ben jackson.
         </Typography>
         <div>
-          <Button sx={{fontWeight: 'bold'}} color="inherit">CV</Button>
+          <Button href={pdfUrl} target="_blank" rel="noopener noreferrer" sx={{fontWeight: 'bold'}} color="inherit">CV</Button>
           
           <Button onClick={handleEmailClick} sx={{fontWeight: 'bold'}} color="inherit">Contact</Button>
         </div>

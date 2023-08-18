@@ -8,3 +8,11 @@
     filter: none;
     -webkit-filter: grayscale(0%);
   }
+
+  /* Projects.css */
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

@@ -18,28 +18,28 @@ const projectsData = [
   {
     id: 1,
     title: "Jaxun Weather",
-    description: "Description for Jaxun Weather project.",
+    description: "React.js weather app using a 3rd party API calls to an Express.js backend with a focus on clean design and functionality.",
     image: "./images/jaxun-weather.png",
     url: "https://github.com/benjackson33/react-weather"
   },
   {
     id: 2,
     title: "Servo Finder",
-    description: "Description for Servo Finder project.",
+    description: "Group project working in a team of five building a single page app implementing Google Map API, updating the map as the user moves and using data seeding in to a PostgreSQL database.",
     image: "./images/servo.png",
     url: "https://github.com/papa-fish/servo_app"
   },
   {
     id: 3,
     title: "MotoShare",
-    description: "Description for MotoShare project.",
+    description: "Full Stack CRUD app for people to share their interest in custom motorcycles. The app was built using Javascript, node.js, Express.js, HTML, CSS and PostgreSQL.",
     image: "./images/motoshare.png",
     url: "https://motoshare.onrender.com",
   },
   {
     id: 4,
     title: "Tic-Tac-Woah",
-    description: "Description for Tic-Tac-Woah project.",
+    description: "Tic-Tac-Woah! The most boadacious of games. Building a tic-tac-toe game implementing HTML, CSS and Javascript",
     image: "./images/tic-tac-woah.png",
     url: "https://benjackson33.github.io/tic-tac-woah/",
   },
@@ -105,7 +105,7 @@ export default function Projects() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              <CardActions className="button-container">
                 <Button
                   variant="outlined"
                   size="small"
@@ -137,96 +137,5 @@ export default function Projects() {
   );
 }
 
-{
-  /* <Grid item xs={6} sm={3}>
-        <Card sx={{ maxWidth: 345, margin: 'auto', textAlign: 'left', backgroundColor: 'transparent', boxShadow: 'none' }}>
-            <CardActionArea>
-              <CardMedia 
-                component="img"
-                height="160"
-                image="src/images/servo.png"
-                alt="green iguana"
-                className='project-img'
-              />
-              <CardContent>
-                <Typography sx={{fontWeight: 'bold', color: 'white'}} gutterBottom variant="h5" component="div">
-                  Servo Finder
-                </Typography>
-                <Typography sx={{color: 'white'}} variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button variant="outlined" size="small" style={buttonStyle}  color="primary">
-                Demo
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
 
-        <Grid item xs={6} sm={3}>
-        <Card sx={{maxWidth: 345, margin: 'auto', textAlign: 'left', backgroundColor: 'transparent', boxShadow: 'none' }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="160"
-                image="src/images/motoshare.png"
-                alt="green iguana"
-                className='project-img'
-              />
-              <CardContent>
-                <Typography sx={{fontWeight: 'bold', color: 'white'}} gutterBottom variant="h5" component="div">
-                  MotoShare
-                </Typography>
-                <Typography sx={{color: 'white'}} variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button variant="outlined" size="small" style={buttonStyle}  color="primary">
-                Demo
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        <Grid item xs={6} sm={3}>
-        <Card sx={{ maxWidth: 345, margin: 'auto', textAlign: 'left', backgroundColor: 'transparent', boxShadow: 'none' }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="160"
-                image="src/images/tic-tac-woah.png"
-                alt="green iguana"
-                className='project-img'
-              />
-              <CardContent>
-                <Typography sx={{fontWeight: 'bold', color: 'white'}} gutterBottom variant="h5" component="div">
-                  Tic-Tac-Woah
-                </Typography>
-                <Typography sx={{color: 'white'}} variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button variant="outlined" size="small" style={buttonStyle}  color="primary">
-                Demo
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-      </Grid>
-      </> */
-}
-{
-  /* ); */
-}
-{
-  /* } */
-}
+ 

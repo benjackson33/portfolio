@@ -126,7 +126,6 @@ export default function Projects() {
             <DialogContent>
               <img
                 src={selectedProject.image}
-                alt={selectedProject.title}
                 style={{ width: "100%" }}
               />
             </DialogContent>

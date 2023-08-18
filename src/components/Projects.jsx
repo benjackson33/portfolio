@@ -33,7 +33,7 @@ const projectsData = [
     id: 3,
     title: "MotoShare",
     description: "Description for MotoShare project.",
-    image: "./images/motoshare.png,",
+    image: "./images/motoshare.png",
     url: "https://motoshare.onrender.com",
   },
   {

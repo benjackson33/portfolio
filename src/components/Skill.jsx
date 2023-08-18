@@ -6,14 +6,14 @@ import './Skill.css';
 
 export default function Skills() {
     const images = [
-        'src/logos/javascript.svg',
-        'src/logos/html-5.svg',
-        'src/logos/css-3.svg',
-        'src/logos/react.svg',
-        'src/logos/express.svg',
-        'src/logos/nodejs-icon.svg',
-        'src/logos/postgresql.svg',
-        'src/logos/material-ui.svg',
+        './logos/javascript.svg',
+        './logos/html-5.svg',
+        './logos/css-3.svg',
+        './logos/react.svg',
+        './logos/express.svg',
+        './logos/nodejs-icon.svg',
+        './logos/postgresql.svg',
+        './logos/material-ui.svg',
     ];
 
     return (

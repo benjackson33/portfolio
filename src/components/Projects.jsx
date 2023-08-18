@@ -26,21 +26,21 @@ const projectsData = [
     id: 2,
     title: "Servo Finder",
     description: "Description for Servo Finder project.",
-    image: "./src/images/servo.png",
+    image: "./public/images/servo.png",
     url: "https://github.com/papa-fish/servo_app"
   },
   {
     id: 3,
     title: "MotoShare",
     description: "Description for MotoShare project.",
-    image: "./public/images/motoshare.png,"
+    image: "./public/images/motoshare.png,",
     url: "https://motoshare.onrender.com",
   },
   {
     id: 4,
     title: "Tic-Tac-Woah",
     description: "Description for Tic-Tac-Woah project.",
-    image: "./src/images/tic-tac-woah.png",
+    image: "./public/images/tic-tac-woah.png",
     url: "https://benjackson33.github.io/tic-tac-woah/",
   },
 ];

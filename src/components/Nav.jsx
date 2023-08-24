@@ -28,7 +28,7 @@ const Nav = () => {
     window.location.href = mailtoLink;
   }
 
-  const pdfUrl = "https://drive.google.com/file/d/1xNX_3MreMnPmGiXYUmj8_eSux80Zbcxg/view"
+  const pdfUrl = "https://drive.google.com/file/d/1S7EK3McZAOBjmKyfvKO1PhWQWXOy0y8r/view?usp=sharing"
 
   return (
     <AppBar position="static" sx={{ background: 'transparent', boxShadow: 'none' }}>

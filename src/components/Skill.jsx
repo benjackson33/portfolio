@@ -10,7 +10,7 @@ export default function Skills() {
         './logos/html-5.svg',
         './logos/css-3.svg',
         './logos/react.svg',
-        './logos/express.svg',
+        './logos/expressjs-icon.svg',
         './logos/nodejs-icon.svg',
         './logos/postgresql.svg',
         './logos/material-ui.svg',

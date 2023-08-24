@@ -18,30 +18,36 @@ const projectsData = [
   {
     id: 1,
     title: "Jaxun Weather",
-    description: "React.js weather app using a 3rd party API calls to an Express.js backend with a focus on clean design and functionality.",
+    description:
+      "React.js weather app using a 3rd party API calls to an Express.js backend with a focus on clean design and functionality.",
     image: "./images/jaxun-weather.png",
-    url: "https://github.com/benjackson33/react-weather"
+    githubUrl: "https://github.com/benjackson33/react-weather",
   },
   {
     id: 2,
     title: "Servo Finder",
-    description: "Group project working in a team of five building a single page app implementing Google Map API, updating the map as the user moves and using data seeding in to a PostgreSQL database.",
+    description:
+      "Group project working in a team of five building a single page app implementing Google Map API, updating the map as the user moves and using data seeding in to a PostgreSQL database.",
     image: "./images/servo.png",
-    url: "https://github.com/papa-fish/servo_app"
+    githubUrl: "https://github.com/papa-fish/servo_app",
   },
   {
     id: 3,
     title: "MotoShare",
-    description: "Full Stack CRUD app for people to share their interest in custom motorcycles. The app was built using Javascript, node.js, Express.js, HTML, CSS and PostgreSQL.",
+    description:
+      "Full Stack CRUD app for people to share their interest in custom motorcycles. The app was built using Javascript, node.js, Express.js, HTML, CSS and PostgreSQL.",
     image: "./images/motoshare.png",
     url: "https://motoshare.onrender.com",
+    githubUrl: "https://github.com/benjackson33/motoshare"
   },
   {
     id: 4,
     title: "Tic-Tac-Woah",
-    description: "Tic-Tac-Woah! The most boadacious of games. Building a tic-tac-toe game implementing HTML, CSS and Javascript",
+    description:
+      "Tic-Tac-Woah! The most boadacious of games. Building a tic-tac-toe game implementing HTML, CSS and Javascript",
     image: "./images/tic-tac-woah.png",
     url: "https://benjackson33.github.io/tic-tac-woah/",
+    githubUrl: "https://github.com/benjackson33/tic-tac-woah"
   },
 ];
 
@@ -105,17 +111,35 @@ export default function Projects() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions className="button-container">
+              <CardActions
+                sx={{ display: "flex", justifyContent: "flex-start" }}
+                className="button-container"
+              >
+                {project.url && (
+                  <Button
+                    variant="outlined"
+                    size="small"
+                    style={buttonStyle}
+                    color="primary"
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{ mr: 1 }}
+                  >
+                    Demo
+                  </Button>
+                )}
                 <Button
                   variant="outlined"
                   size="small"
                   style={buttonStyle}
                   color="primary"
-                  href={project.url}
+                  href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  sx={project.url ? { mrl: 1 } : {}}
                 >
-                  Demo
+                  GitHub
                 </Button>
               </CardActions>
             </Card>
@@ -124,10 +148,7 @@ export default function Projects() {
         <Dialog open={openDialog} onClose={handleCloseDialog} maxWidth="md">
           {selectedProject && (
             <DialogContent>
-              <img
-                src={selectedProject.image}
-                style={{ width: "100%" }}
-              />
+              <img src={selectedProject.image} style={{ width: "100%" }} />
             </DialogContent>
           )}
         </Dialog>
@@ -135,6 +156,3 @@ export default function Projects() {
     </>
   );
 }
-
-
- 

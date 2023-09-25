@@ -14,6 +14,7 @@ export default function Skills() {
         './logos/nodejs-icon.svg',
         './logos/postgresql.svg',
         './logos/material-ui.svg',
+        './logos/svelte-icon.svg',
     ];
 
     return (

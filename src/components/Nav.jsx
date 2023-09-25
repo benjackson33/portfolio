@@ -17,7 +17,6 @@ import { Button, Toolbar } from '@mui/material';
 
 
 const Nav = () => {
-  const [showCV, setShowCV] = React.useState(false);
 
   const handleEmailClick = () => {
     const recipient = 'benjacksonsmail@gmail.com';

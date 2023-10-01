@@ -1,4 +1,5 @@
 import { Typography, Container, Link } from "@mui/material";
+import "./Footer.css";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -28,6 +29,7 @@ export default function Footer() {
           linkedin
         </Link>{" "}
         <Link
+          className="email"
           variant="h5"
           color="inherit"
           underline="hover"

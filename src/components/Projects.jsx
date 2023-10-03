@@ -29,6 +29,7 @@ const projectsData = [
     description:
       "Group project working in a team of five building a single page app implementing Google Map API, updating the map as the user moves and using data seeding in to a PostgreSQL database.",
     image: "./images/servo.png",
+    url: "https://servo-app.fly.dev/",
     githubUrl: "https://github.com/papa-fish/servo_app",
   },
   {
